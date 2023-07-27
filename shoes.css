@@ -1,0 +1,68 @@
+.link {
+    color: rgb(0, 113, 133);
+    font-size: large;
+}
+
+.link:hover {
+    color: orange;
+}
+
+.name-of-shoe {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.price {
+    color: rgb(0, 118, 0);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.status {
+    color: black;
+    font-size: 18px;
+}
+
+.add-to-cart {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    color: black;
+    height: 36px;
+    width: 180px;
+    border-radius: 18px;
+    font-size: 15px;
+    font-weight: 110;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+    
+}
+
+.add-to-cart:hover {
+    background-color: rgb(255, 196, 0);
+}
+
+.add-to-cart:active {
+    opacity: 0.3;
+}
+
+.buy {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    color: black;
+    height: 36px;
+    width: 100px;
+    border-radius: 18px;
+    font-size: 15px;
+    font-weight: 110;
+    cursor: pointer;
+}
+
+.buy:hover {
+    background-color: rgb(206, 117, 0);
+}
+
+.buy:active {
+    opacity: 0.5;
+}
